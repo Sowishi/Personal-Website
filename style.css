@@ -1,0 +1,27 @@
+.main{
+    background: rgb(13,110,253);
+    background: linear-gradient(105deg, rgba(13,110,253,1) 6%, rgba(220,53,69,1) 80%);
+}
+
+
+.card{
+    transition: .5s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    filter: blur(0px) !important;
+}
+
+.card img{
+    width: 100% !important;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.me{
+    filter: grayscale(100%);
+    border-radius: 100%;
+}
